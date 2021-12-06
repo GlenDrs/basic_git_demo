@@ -1,0 +1,10 @@
+In github we have the main or master branche. In paralel of that we'll create the branche Developpement (or 'Dev').
+all the other branches wi'll be merget to the Dev after thei'r pull request. and in the end before production the Dev will merge to master (or main) branche. 
+
+When we create a new branche that we will do a pull request to the github for the sake of the 
+merge into Dev branche it is a commun rule to use the prefix 'Feature/' when we start working
+to this branch, example: Feature/makint_administrator. And we use the prefix 'fix/ when' we come
+back to this branch for the sake of fixing something, example: fix/add_option_to_admin.
+
+As showed in demo file (line 38) we use the 'git checkout -d' line to create the new branche.
+Example: git checkout -b Feature/an_example_branche
