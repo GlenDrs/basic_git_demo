@@ -8,6 +8,11 @@
     git clone [url] ->obtain a repository from an existing URL.
 
     git add [file] ->adds a file to the staging area.
+    
+    git add --patch * // Or,
+    git add -p --> Le flag —patch lance un programme interactif qui vous permet d’ajouter en staging ou pas certains bouts de code. Vous aurez plusieurs options comme split 
+                   pour diviser encore plus le code en morceaux. --patch est parfait si vous avec fait plusieurs modifications dans un fichier mais que vous ne voulez commit 
+                   qu’une modification dans ce meme fichier.
 
     git commit -m “[ Type in the commit message]” ->records or snapshots the file permanently in the version history.
     git commit -a ->commits any files you’ve changed since then.&commits any files you’ve added
