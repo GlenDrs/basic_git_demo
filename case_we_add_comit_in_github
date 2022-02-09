@@ -1,4 +1,4 @@
 # In this case we are adding a file in github and as result also at list one commit. 
--Further if we commit localy in our Dev envirenment it will be not possible to push our local changes.
+-Further if we commit locally in your Dev environment it will be not possible to push our local changes.
 - We will have as error the message: ![rejected] dev -> dev (fetch first)
-- so in the demo.txt file at the 'pull' comandes there is the 'git pull --rebase' that will combine the two comits together.
+- So in the demo.txt file at the 'pull' commandes there is the 'git pull --rebase' that will combine the two commits together.
