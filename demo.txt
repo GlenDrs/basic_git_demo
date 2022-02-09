@@ -39,6 +39,8 @@
     git checkout -b [branch name] ->creates a new branch and also switches to it.
     git checkout -- [file]-> If you have not already commited and want to go back
     git checkout --. -> same thing like 'checkout -- [file]' but it do all the files.
+                // ATENTION: if you've already git add -p, you must use before:
+                // the previeous command:  git restore --staged [file]
 
     git merge [branch name] ->merges the specified branch’s history into the current branch.
 
