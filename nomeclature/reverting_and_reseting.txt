@@ -1,0 +1,16 @@
+# In this part we well explain the commands that we use to go back in our work. 
+# we will have four cases:
+a: going back to our work when we haven't committed.
+b: going back to our changes after we've already committed.
+c: going back to our changes without committing automatically.
+d: resetting => invalidatting all the 'coming backs' and go return at the stad of the app before we went back.
+
+* To show the work we will print further some lines with the number of the commits (we will commit after each 
+* line except the last one), the first one will be ne level 0, the next lines will print each one the number of
+* the commit. The last line will not be committed.
+
+p "Commit level 0, there will be no revert untill here "
+p "Commit level 1, no changes untill here"
+p "Commit level 2, after the level 3 we will add but we'll not commit. the
+  line will be simply called No commit level 4"
+p "Commit level 3, after this level we'll add without committing. the line will be simply called No commit level 4
