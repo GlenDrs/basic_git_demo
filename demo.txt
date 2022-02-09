@@ -48,6 +48,7 @@
     git push [variable name] :[branch name] ->deletes a branch on your remote repository.
 
     git pull [Repository Link] ->fetches and merges changes on the remote server to your working directory.
+    git pull --rebase origin [name of the branch were we have the new file and the new local commit] -> see file 'case_we_add_comit_in_github'
 
     git stash save ->stores all the modified tracked files.
 
