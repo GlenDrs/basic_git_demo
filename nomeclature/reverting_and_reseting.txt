@@ -10,3 +10,4 @@ d: resetting => invalidatting all the 'coming backs' and go return at the stad o
 * the commit. The last line will not be committed.
 
 p "Commit level 0, there will be no revert untill here "
+p "Commit level 1, no changes untill here"
