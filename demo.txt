@@ -37,10 +37,20 @@
 
     git checkout [branch name] -> used to switch from one branch to another
     git checkout -b [branch name] ->creates a new branch and also switches to it.
+    git checkout -- [file]-> If you have not already commited and want to go back
+    git checkout --. -> same thing like 'checkout -- [file]' but it do all the files.
+                // ATENTION: if you've already git add -p, you must use before:
+                // the previeous command:  git restore --staged [file]
 
     git merge [branch name] ->merges the specified branch’s history into the current branch.
 
     git remote add [variable name] [Remote Server Link] ->used to connect your local repository to the remote server.
+
+    git revert [commit id] -> it will bring back your work at the state before the commit with the number id you've reverted.
+                         // after that if you tipe git log at the last commit it will add the 'Revert' in the begining.
+    git revert -n [commit id] -> The change has been made but not the commit.
+
+    git reset --hard [commit id]-> you can reverse the 'come back' that you did with 'git revert'
 
     git push [variable name] master ->sends the committed changes of master branch to your remote repository.
     git push [variable name] [branch] ->sends the branch commits to your remote repository.
