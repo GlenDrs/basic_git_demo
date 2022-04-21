@@ -14,6 +14,11 @@
                    pour diviser encore plus le code en morceaux. --patch est parfait si vous avec fait plusieurs modifications dans un fichier mais que vous ne voulez commit 
                    qu’une modification dans ce meme fichier.
 
+    git add --patch * // Or,
+    git add -p --> Le flag —patch lance un programme interactif qui vous permet d’ajouter en staging ou pas certains bouts de code. Vous aurez plusieurs options comme split 
+                   pour diviser encore plus le code en morceaux. --patch est parfait si vous avec fait plusieurs modifications dans un fichier mais que vous ne voulez commit 
+                   qu’une modification dans ce meme fichier.
+
     git commit -m “[ Type in the commit message]” ->records or snapshots the file permanently in the version history.
     git commit -a ->commits any files you’ve changed since then.&commits any files you’ve added
 
@@ -31,6 +36,10 @@
 
     git log ->used to list the version history for the current branch.
     git log –follow[file] ->lists version history for a file, including the renaming of files also.
+    git log branchB..branch1 -> show the commits on branchA that are not on branchB
+    git diff branchB..branchA -> show the diff of what is in branchA that is not in branch
+    git show [SHA] -> show any object in Git in human-readable format
+    git log --stat -M -> show all commit logs with indication of any paths that moved
 
     git show [commit] ->shows the metadata and content changes of the specified commit.
 
