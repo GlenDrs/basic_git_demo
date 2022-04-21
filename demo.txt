@@ -31,6 +31,10 @@
 
     git log ->used to list the version history for the current branch.
     git log –follow[file] ->lists version history for a file, including the renaming of files also.
+    git log branchB..branch1 -> show the commits on branchA that are not on branchB
+    git diff branchB..branchA -> show the diff of what is in branchA that is not in branch
+    git show [SHA] -> show any object in Git in human-readable format
+    git log --stat -M -> show all commit logs with indication of any paths that moved
 
     git show [commit] ->shows the metadata and content changes of the specified commit.
 
